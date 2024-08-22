@@ -1,0 +1,26 @@
+{
+    "python.linting.enabled": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "micropico.syncFolder": "",
+    "micropico.openOnStart": true,
+    "python.analysis.typeshedPaths": [
+        "~/.micropico-stubs/included"
+    ],
+    "python.analysis.extraPaths": [
+        "~/.micropico-stubs/included"
+    ],
+    "editor.rulers": [80, 120],
+    "editor.formatOnSave": true,
+    "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "editor.renderWhitespace": "all",
+    "ruff.lineLength": 120,
+    "ruff.lint.select": ["E", "F", "W", "A", "PLC", "PLE", "PLW", "I"],
+    "ruff.lint.ignore": ["E741", "A002", "PLW2901"],
+    "ruff.nativeServer": true
+}
